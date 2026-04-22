@@ -72,7 +72,7 @@ lbl_file2 = tk.Label(frame_top, text="(None)", fg="gray", width=40, anchor="w")
 lbl_file2.grid(row=1, column=1, padx=10, pady=5)
 tk.Button(frame_top, text="Browse...", command=select_file2).grid(row=1, column=2, padx=10, pady=5)
 
-btn_compare = tk.Button(window, text="⚡ FIND DIFFERENCES ⚡", command=compare_files, bg="lightblue", font=("Arial", 10, "bold"))
+btn_compare = tk.Button(window, text="FIND DIFFERENCES", command=compare_files, bg="lightblue", font=("Arial", 10, "bold"))
 btn_compare.pack(pady=10)
 
 # --- RESULTS TABLE (Treeview) ---
